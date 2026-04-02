@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find '/Users/julian/ClaudeProjects/Backup of www.belmont-turbo.com' -not -path */_vti_cnf* -type f)",
+      "Bash(ls *.html *.css)",
+      "Bash(ls Pages/*.html)",
+      "Bash(ls Pages/Gallery/*.html)"
+    ]
+  }
+}
