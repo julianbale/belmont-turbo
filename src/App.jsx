@@ -7,6 +7,7 @@ import TechSpec from './pages/TechSpec'
 import Links from './pages/Links'
 import GalleryIndex from './pages/GalleryIndex'
 import GalleryPage from './pages/GalleryPage'
+import Events from './pages/Events'
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="/techspec" element={<TechSpec />} />
         <Route path="/links" element={<Links />} />
         <Route path="/gallery" element={<GalleryIndex />} />
+        <Route path="/gallery/events" element={<Events />} />
         <Route path="/gallery/:section" element={<GalleryPage />} />
       </Route>
     </Routes>

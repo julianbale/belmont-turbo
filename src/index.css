@@ -425,6 +425,55 @@ a:hover { color: var(--teal); }
   line-height: 1.7;
 }
 
+/* ── Video section ──────────────────────────────────── */
+.video-section {
+  margin-top: 40px;
+  padding-top: 32px;
+  border-top: 2px solid var(--teal-light);
+}
+
+.video-section-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--teal-dark);
+  margin-bottom: 8px;
+}
+
+.video-desc {
+  color: #555;
+  font-size: 0.92rem;
+  margin-bottom: 20px;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.video-card {
+  background: white;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.video-label {
+  padding: 8px 12px;
+  background: var(--teal);
+  color: white;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.video-player {
+  width: 100%;
+  display: block;
+  background: #000;
+}
+
 /* ── Responsive ─────────────────────────────────────── */
 @media (max-width: 680px) {
   .hamburger { display: flex; align-items: center; }
