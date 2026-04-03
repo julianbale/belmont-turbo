@@ -37,26 +37,13 @@ export default function Events() {
 
       {/* Video section */}
       <div className="video-section">
-        <h3 className="video-section-title">On-Board Video — Santa Pod</h3>
+        <h3 className="video-section-title">On-Board Video — Nancy, France</h3>
         <p className="video-desc">
-          Carol running the quarter mile at Santa Pod — recorded November 2001.
+          Carol running the quarter mile in Nancy, France — recorded November 2001.
         </p>
 
         <div className="video-grid">
           <div className="video-card">
-            <div className="video-label">Standard Quality</div>
-            <video
-              controls
-              preload="metadata"
-              className="video-player"
-            >
-              <source src={`${BASE}Video/carol-runs.mp4`} type="video/mp4" />
-              Your browser does not support video playback.
-            </video>
-          </div>
-
-          <div className="video-card">
-            <div className="video-label">High Quality</div>
             <video
               controls
               preload="metadata"
