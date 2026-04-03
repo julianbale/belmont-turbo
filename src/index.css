@@ -171,6 +171,8 @@ a:hover { color: var(--teal); }
 }
 .links-item:last-child { border-bottom: none; }
 .links-url  { font-weight: 600; color: var(--teal); min-width: 200px; flex-shrink: 0; }
+.links-url--dead { color: #888; font-style: italic; }
+.links-note { color: #555; font-size: 0.88rem; margin-bottom: 18px; }
 .links-desc { color: #555; font-size: 0.9rem; }
 
 /* ── Gallery index ──────────────────────────────────── */
