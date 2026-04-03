@@ -29,7 +29,7 @@ const specs = [
   },
   {
     label: 'Future',
-    text: 'Green injectors, new map for the CPU, maybe 280–300 bhp. USC2000 ¼ mile with over 100 mph terminal speed. Bright coloured re spray.',
+    text: 'Green injectors, new map for the CPU, maybe 280–300 bhp. USC2000 ¼ mile with over 100 mph terminal speed. Bright coloured respray.',
   },
 ]
 

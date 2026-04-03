@@ -27,8 +27,8 @@ export default function Story() {
           <Img path="10000Miles.jpg">100,000 miles</Img> without any major problems.
         </p>
         <p>
-          Christmas came and I had to buy something for my then girlfriend. Perfume, Flowers,
-          Nice clothes, I think not, I went out and got a set of alloys from a B reg. cav SRi.
+          Christmas came and I had to buy something for my then girlfriend. Perfume, flowers,
+          nice clothes, I think not, I went out and got a set of alloys from a B reg. cav SRi.
           Much to my surprise she was very happy with this, (did I mention she lives in Essex).
           Next on the list was a set of bumpers from a Belmont SRi, I found a local breaker
           who was very keen to take my money and provide the goods. Soon she had a{' '}
@@ -36,8 +36,8 @@ export default function Story() {
           followed.
         </p>
         <p>
-          By this time I was feeling brave and I got my hands on a F16 5 speed box, and with
-          the help of my brother in law in it went. Great — the top speed fell to 105 mph but
+          By this time I was feeling brave and I got my hands on an F16 5-speed box, and with
+          the help of my brother-in-law in it went. Great — the top speed fell to 105 mph but
           the engine felt a bit more refined.
         </p>
         <p>
@@ -94,7 +94,7 @@ export default function Story() {
           it couldn't be done so I had even more incentive to make it fit. The brackets in the
           engine bay were already there, a quick trip to my local Vauxhall dealer and I had the
           correct fittings. I fitted the new discs all round and set up the ABS sensors; as I
-          had changed the loom the cables were already there. Next my brother in law made up
+          had changed the loom the cables were already there. Next my brother-in-law made up
           some new pipes to the ABS unit.
         </p>
         <p>
@@ -116,8 +116,8 @@ export default function Story() {
           bought a Jetex 1.8i full exhaust system; it was the biggest I could buy and still
           have it fit the car (remember it is longer and won't take a twin tail pipe because of
           the rear bumper). I got a set of GTE Jamex springs and Spax shocks. Black Diamond
-          rear discs and Bembro front discs with Mintex pads. The exhaust wasn't a good fit
-          and it needed the skills of my brother in law to cut and weld it into shape. We used
+          rear discs and Brembo front discs with Mintex pads. The exhaust wasn't a good fit
+          and it needed the skills of my brother-in-law to cut and weld it into shape. We used
           a bit from a Range Rover V8 to make it fit.
         </p>
         <p>
@@ -154,7 +154,7 @@ export default function Story() {
         </p>
         <p>
           Ultimate Fast Car 97 was coming up and I wanted to find out how fast she was. I
-          packed my tent, wife and 6-month-old son and set off for Santapod. On the Saturday
+          packed my tent, wife and 6-month-old son and set off for Santa Pod. On the Saturday
           the track was dry and I got three runs in. I got a time of{' '}
           <Img path="HiRes/QtrMileHiRes.jpg">14.827</Img> which was pretty good for a granddad
           car.
