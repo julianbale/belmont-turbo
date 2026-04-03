@@ -1,0 +1,18 @@
+version: 2
+updates:
+
+  # Keep GitHub Actions pinned SHAs up to date
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    commit-message:
+      prefix: "ci"
+
+  # Keep npm packages up to date
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    commit-message:
+      prefix: "deps"
