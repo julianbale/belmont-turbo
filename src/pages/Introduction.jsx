@@ -1,4 +1,7 @@
+import { usePageTitle } from '../hooks/usePageTitle'
+
 export default function Introduction() {
+  usePageTitle('Introduction')
   return (
     <>
       <h2 className="page-title">Introduction</h2>

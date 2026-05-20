@@ -2,11 +2,11 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { galleries } from '../data/galleryData'
 import Lightbox from '../components/Lightbox'
-import { img } from '../utils'
-
-const BASE = import.meta.env.BASE_URL
+import { img, video } from '../utils'
+import { usePageTitle } from '../hooks/usePageTitle'
 
 export default function Events() {
+  usePageTitle('Events')
   const gallery = galleries.events
   const [lightboxSrc, setLightboxSrc] = useState(null)
   const [lightboxAlt, setLightboxAlt] = useState('')
@@ -44,12 +44,13 @@ export default function Events() {
 
         <div className="video-grid">
           <div className="video-card">
+            <div className="video-label">Quarter Mile — Nancy, France, Nov 2001</div>
             <video
               controls
               preload="metadata"
               className="video-player"
             >
-              <source src={`${BASE}Video/carol-runs-hq.mp4`} type="video/mp4" />
+              <source src={video('carol-runs-hq.mp4')} type="video/mp4" />
               Your browser does not support video playback.
             </video>
           </div>

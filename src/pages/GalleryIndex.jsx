@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom'
 import { gallerySections } from '../data/galleryData'
 import { img } from '../utils'
+import { usePageTitle } from '../hooks/usePageTitle'
 
 export default function GalleryIndex() {
+  usePageTitle('Gallery')
   return (
     <>
       <h2 className="page-title">Gallery</h2>

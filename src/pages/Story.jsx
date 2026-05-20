@@ -1,18 +1,20 @@
 import { useState } from 'react'
 import Lightbox from '../components/Lightbox'
 import { img } from '../utils'
+import { usePageTitle } from '../hooks/usePageTitle'
 
 export default function Story() {
+  usePageTitle('Story')
   const [lightbox, setLightbox] = useState(null)
 
   const Img = ({ path, children }) => (
-    <a
-      href="#"
+    <button
+      type="button"
       className="img-link"
-      onClick={(e) => { e.preventDefault(); setLightbox({ src: img(path), alt: String(children) }) }}
+      onClick={() => setLightbox({ src: img(path), alt: String(children) })}
     >
       {children}
-    </a>
+    </button>
   )
 
   return (

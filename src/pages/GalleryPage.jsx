@@ -3,10 +3,12 @@ import { useParams, Link } from 'react-router-dom'
 import { galleries } from '../data/galleryData'
 import Lightbox from '../components/Lightbox'
 import { img } from '../utils'
+import { usePageTitle } from '../hooks/usePageTitle'
 
 export default function GalleryPage() {
   const { section } = useParams()
   const gallery = galleries[section]
+  usePageTitle(gallery?.title ?? 'Gallery')
   const [lightboxSrc, setLightboxSrc] = useState(null)
   const [lightboxAlt, setLightboxAlt] = useState('')
 
@@ -46,7 +48,7 @@ export default function GalleryPage() {
       </div>
 
       {hasHiRes && (
-        <p className="gallery-hint">Hover over images for full-size view option</p>
+        <p className="gallery-hint">Click highlighted images to view in full resolution</p>
       )}
 
       {lightboxSrc && (
