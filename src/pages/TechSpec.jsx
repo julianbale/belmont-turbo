@@ -33,7 +33,10 @@ const specs = [
   },
 ]
 
+import { usePageTitle } from '../hooks/usePageTitle'
+
 export default function TechSpec() {
+  usePageTitle('Tech Spec')
   return (
     <>
       <h2 className="page-title">Tech Spec</h2>

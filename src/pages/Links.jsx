@@ -5,23 +5,16 @@ const links = [
     desc: 'Fastest Astra in France — 315 bhp',
   },
   {
-    archiveUrl: null,
-    label: 'www.vpcc.co.uk',
-    desc: 'Vauxhall Performance Car Club',
-  },
-  {
     archiveUrl: 'http://web.archive.org/web/20010307064756/http://www.maxpower.co.uk:80',
     label: 'www.maxpower.co.uk',
     desc: 'Max Power magazine',
   },
-  {
-    archiveUrl: null,
-    label: 'www.stickerland.fsnet.co.uk',
-    desc: "Tom Stickland's Astra Info",
-  },
 ]
 
+import { usePageTitle } from '../hooks/usePageTitle'
+
 export default function Links() {
+  usePageTitle('Links')
   return (
     <>
       <h2 className="page-title">Links</h2>
@@ -32,13 +25,9 @@ export default function Links() {
       <ul className="links-list">
         {links.map(({ archiveUrl, label, desc }) => (
           <li key={label} className="links-item">
-            {archiveUrl ? (
-              <a href={archiveUrl} target="_blank" rel="noopener noreferrer" className="links-url">
-                {label}
-              </a>
-            ) : (
-              <span className="links-url links-url--dead">{label}</span>
-            )}
+            <a href={archiveUrl} target="_blank" rel="noopener noreferrer" className="links-url">
+              {label}
+            </a>
             <span className="links-desc">{desc}</span>
           </li>
         ))}
